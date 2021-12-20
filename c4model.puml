@@ -8,6 +8,7 @@
 !include https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/main/dist/Storage/SimpleStorageServiceBucket.puml
 !include https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/main/dist/Database/AuroraPostgreSQLInstance.puml
 !include https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/main/dist/Containers/Fargate.puml
+!include https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/main/dist/GroupIcons/Cloudalt.puml
 
 
 AddRelTag("async", $lineStyle = DashedLine, $legendText="Async call")
@@ -18,4 +19,4 @@ AddElementTag("dynamodb", $sprite="DynamoDBTable", $techn="DynamoDB", $legendTex
 AddElementTag("s3", $sprite="SimpleStorageServiceBucket", $techn="S3 Bucket", $legendText="S3 Bucket")
 AddElementTag("postgresql", $sprite="AuroraPostgreSQLInstance", $techn="PostgreSQL", $legendText="PostgreSQL")
 AddElementTag("fargate", $sprite="Fargate", $techn="Fargate", $legendText="Fargate")
-AddElementTag("fargate", $sprite="Fargate", $techn="Fargate", $legendText="Fargate")
+AddElementTag("cloud", $sprite="Cloudalt", $techn="cloud", $legendText="cloud")
