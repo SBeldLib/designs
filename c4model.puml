@@ -21,4 +21,5 @@ AddElementTag("dynamodb", $sprite="DynamoDBTable", $techn="DynamoDB", $legendTex
 AddElementTag("s3", $sprite="SimpleStorageServiceBucket", $techn="S3 Bucket", $legendText="S3 Bucket")
 AddElementTag("postgresql", $sprite="AuroraPostgreSQLInstance", $techn="PostgreSQL", $legendText="PostgreSQL")
 AddElementTag("fargate", $sprite="Fargate", $techn="Fargate", $legendText="Fargate")
+AddElementTag("fargateparticipant", $sprite="FargateParticipant", $techn="Fargate", $legendText="Fargate")
 AddElementTag("cloud", $sprite="Cloudalt", $techn="cloud", $legendText="cloud")
